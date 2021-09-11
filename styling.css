@@ -1,0 +1,51 @@
+h1, h3{
+/* center this text*/
+text-align: center;
+}
+img{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: grey;
+}
+#center {
+    margin: 1000px;
+}
+.overflow{
+    overflow-x: hidden;
+}
+#main{
+/* limit movement of content */
+width: 1000px;
+max-height: 1000px;
+margin: 0 auto;
+}
+#blue{
+/* make background blue and have flex */
+background-color: blue;
+margin: 10px;
+display: flex;
+max-width: 1000px;
+margin: 0 auto;
+justify-content: space-evenly;
+}
+#purple{
+/* make background purple and have flex*/
+background-color: purple;
+margin: 10px;
+display:flex;
+max-width: 1000px;
+margin: 0 auto;
+justify-content: space-evenly;
+}
+#white{
+/* make background white and have flex */
+background-color: white;
+margin: 10px;
+display: flex;
+max-width: 1000px;
+margin: 0 auto;
+justify-content: space-evenly;
+}
